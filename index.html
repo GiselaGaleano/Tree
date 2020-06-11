@@ -42,7 +42,7 @@ var svg = d3.select("body").append("svg")
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-d3.json("https://gist.githubusercontent.com/GiselaGaleano/8ebfe6846b4c641c2d2d27a2a3d07706/raw/ff7c61ff1dc93b0c2aecb26060285e1cbf2924bd/gistfile1.txt", function(error, json) {
+d3.json("https://gist.githubusercontent.com/GiselaGaleano/8ebfe6846b4c641c2d2d27a2a3d07706/raw/26a61ee8896ff92c3cc83b2f9408e96adfe88d36/tree.json", function(error, json) {
   if (error) throw error;
 
   var nodes = tree.nodes(json);
